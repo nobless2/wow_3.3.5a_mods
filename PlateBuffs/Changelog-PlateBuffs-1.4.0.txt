@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+r156 | cyprias | 2010-08-02 00:41:12 +0000 (Mon, 02 Aug 2010) | 1 line
+Changed paths:
+   A /tags/1.4.0 (from /trunk:155)
+
+Tagged as 1.4.0.
+------------------------------------------------------------------------
+r155 | cyprias | 2010-07-26 20:55:53 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Added tag: latest to LibNameplate & LibAuraInfo.
+------------------------------------------------------------------------
+r153 | cyprias | 2010-07-24 02:31:56 +0000 (Sat, 24 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Update to grab LibAuraInfo changes.
+------------------------------------------------------------------------
+r152 | cyprias | 2010-07-11 23:43:42 +0000 (Sun, 11 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/options.lua
+
+Removed individual get/set functions from each option. (thanks Rabbit)
+------------------------------------------------------------------------
+r151 | cyprias | 2010-07-10 00:45:34 +0000 (Sat, 10 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/options.lua
+
+Changed order of options.
+------------------------------------------------------------------------
+r150 | cyprias | 2010-07-09 22:28:37 +0000 (Fri, 09 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/options.lua
+
+Cooldown overlay will show by default.
+------------------------------------------------------------------------
+r149 | cyprias | 2010-07-09 22:12:11 +0000 (Fri, 09 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/options.lua
+
+Moved "Show Cooldown Text" option to 'default options' page.
+------------------------------------------------------------------------
+r148 | cyprias | 2010-07-09 22:07:41 +0000 (Fri, 09 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/options.lua
+
+Disabling spell descriptions by default on the Specific Spells list.
+------------------------------------------------------------------------

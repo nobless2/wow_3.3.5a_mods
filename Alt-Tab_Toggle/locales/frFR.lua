@@ -1,0 +1,3 @@
+local folder, core = ...
+local L = LibStub("AceLocale-3.0"):NewLocale(folder, "frFR")
+if not L then return end

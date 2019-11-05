@@ -1,0 +1,26 @@
+## Interface: 30300
+## Title: Alt-Tab Toggle
+## Version: 2.1.4beta
+## Notes: Toggles WoW to the forground on events.
+## Author: Cyprias
+## SavedVariables: ATT2_DB
+## OptionalDeps: LibStub, CallbackHandler-1.0, Ace3, BankStack, Auc-Advanced, LibSharedMedia-3.0, LibNameplate-1.0, LibAuraInfo-1.0, AceGUI-3.0-SharedMediaWidgets
+## X-Curse-Packaged-Version: 2.1.4beta
+## X-Curse-Project-Name: Alt-Tab Toggle
+## X-Curse-Project-ID: alt-tab-toggle
+## X-Curse-Repository-ID: wow/alt-tab-toggle/mainline
+
+
+## LoadManagers: AddonLoader
+## X-LoadOn-Always: true
+
+#@no-lib-strip@
+embeds.xml
+#@end-no-lib-strip@
+
+locales\load.xml
+
+core.lua
+options.lua
+
+modules\load.xml

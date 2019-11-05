@@ -1,0 +1,25 @@
+------------------------------------------------------------------------
+r1310 | Phanx | 2010-08-23 02:54:02 +0000 (Mon, 23 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/GridFrame.lua
+
+- Fixed texture squishing fix for dead units when "show dead as full health" is disabled
+------------------------------------------------------------------------
+r1309 | Phanx | 2010-08-19 06:40:36 +0000 (Thu, 19 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/GridFrame.lua
+
+- Fix "texture squishing" effect visible with some bar textures
+------------------------------------------------------------------------
+r1307 | Phanx | 2010-08-06 05:31:41 +0000 (Fri, 06 Aug 2010) | 1 line
+Changed paths:
+   M /trunk/Grid.toc
+
+- Update TOC for release
+------------------------------------------------------------------------
+r1306 | Phanx | 2010-06-25 00:00:21 +0000 (Fri, 25 Jun 2010) | 1 line
+Changed paths:
+   M /trunk/GridStatusHealth.lua
+
+- Fixed a bug with the Unit Health status when range checking was enabled on it
+------------------------------------------------------------------------

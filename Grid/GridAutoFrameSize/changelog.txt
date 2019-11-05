@@ -1,0 +1,18 @@
+2.3.8:
+  - update: added Onyxia's Lair to zone lock
+
+2.3.7:
+  - bugfix: proper use of GetInstanceDifficulty
+  - update: added Trial of the Crusader and Isle of Conquest to zone lock
+
+2.3.6:
+  - bugfix: "GridAutoFrameSize.lua line 49: attempt to call upvalue 'GetCurrentDungeonDifficulty' (a nil value)"
+
+2.3.5:
+  - bugfix: "GridAutoFrameSize.lua line 165: attempt to call method 'CheckZone' (a nil value)"
+
+2.3.4:
+  - update: various localizations
+
+2.3.3:
+  - bugfix: problems with pet layouts not switching sometimes

@@ -1,0 +1,269 @@
+------------------------------------------------------------------------
+r118 | cyprias | 2010-07-27 19:54:19 +0000 (Tue, 27 Jul 2010) | 1 line
+Changed paths:
+   A /tags/2.1.4beta (from /trunk:117)
+
+Tagged as 2.1.4beta.
+------------------------------------------------------------------------
+r117 | cyprias | 2010-07-27 19:52:40 +0000 (Tue, 27 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Whisper.lua
+
+Added Battle.net whispers to toggle on. (option added to Whispers menu)
+------------------------------------------------------------------------
+r115 | cyprias | 2010-07-27 09:10:37 +0000 (Tue, 27 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/embeds.xml
+
+embeds.xml file wasn't loading AceHook properly. 
+------------------------------------------------------------------------
+r114 | cyprias | 2010-07-26 20:58:30 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/Alt-Tab_Toggle.toc
+
+Added libs to OptionalDeps.
+------------------------------------------------------------------------
+r113 | cyprias | 2010-07-26 20:56:36 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+
+Added tag: latest to LibSharedMedia-3.0 & AceGUI-3.0-SharedMediaWidgets.
+------------------------------------------------------------------------
+r111 | cyprias | 2010-07-26 03:51:08 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Resurrection.lua
+
+added some comments.
+------------------------------------------------------------------------
+r110 | cyprias | 2010-07-26 03:48:40 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+
+Added locale text for Resurrection.lua
+------------------------------------------------------------------------
+r109 | cyprias | 2010-07-26 03:47:21 +0000 (Mon, 26 Jul 2010) | 1 line
+Changed paths:
+   A /trunk/modules/Resurrection.lua
+   M /trunk/modules/load.xml
+
+Added toggle on resurrection requests.
+------------------------------------------------------------------------
+r108 | cyprias | 2010-07-25 11:59:15 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Removed debug message.
+------------------------------------------------------------------------
+r106 | cyprias | 2010-07-25 01:52:26 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Auctioneer.lua
+   M /trunk/modules/TradeSkill.lua
+
+Added toggle delay slider to auctioneer/trade skill modules. This is how long we wait to make sure we're finshed scanning/crafting. Slower PCs may need longer to process a scan, lag also comes into play. The default delays seem to work for me. /shrug
+------------------------------------------------------------------------
+r105 | cyprias | 2010-07-25 01:42:32 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/ZeppelinArrival.lua
+
+Changed Zeppelin's description text.
+------------------------------------------------------------------------
+r104 | cyprias | 2010-07-25 01:40:19 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Auctioneer.lua
+   M /trunk/modules/BankStack.lua
+   M /trunk/modules/TradeSkill.lua
+
+When going from window mode to full screen mode, ATT will echo which modules cannot function.
+------------------------------------------------------------------------
+r103 | cyprias | 2010-07-25 01:27:36 +0000 (Sun, 25 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Auctioneer.lua
+   M /trunk/modules/BankStack.lua
+   M /trunk/modules/TradeSkill.lua
+
+Options for window mode only modules will gray out when in fullscreen mode, then return to normal when in windowed mode.
+------------------------------------------------------------------------
+r102 | cyprias | 2010-07-24 11:14:50 +0000 (Sat, 24 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed ATT not changing the alt tab detection method used when the game changes fullscreen/windowmode.
+------------------------------------------------------------------------
+r99 | cyprias | 2010-07-23 03:44:59 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Auctioneer.lua
+
+Added another callback type to cancel auction toggle.
+------------------------------------------------------------------------
+r98 | cyprias | 2010-07-23 03:19:28 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Auctioneer.lua
+
+Increased auctioneer delay toggle to 5 seconds. May still give false positives depending on how long Auctioneer takes to process batch refresh. 
+------------------------------------------------------------------------
+r96 | cyprias | 2010-07-23 03:10:29 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+
+Added locales for trade skill module.
+------------------------------------------------------------------------
+r93 | cyprias | 2010-07-23 03:05:46 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/TradeSkill.lua
+
+Added upvalue.
+------------------------------------------------------------------------
+r92 | cyprias | 2010-07-23 03:05:26 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   A /trunk/modules/TradeSkill.lua
+   M /trunk/modules/load.xml
+
+Added toggle when trade skill is done crafting. Helpful when crafting large batches. 
+------------------------------------------------------------------------
+r90 | cyprias | 2010-07-23 01:17:58 +0000 (Fri, 23 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/embeds.xml
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Auctioneer.lua
+
+Added toggle on auctioneer post complete. (batch posting)
+------------------------------------------------------------------------
+r88 | cyprias | 2010-07-22 23:27:37 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/Auctioneer.lua
+
+duno what I did.
+------------------------------------------------------------------------
+r87 | cyprias | 2010-07-22 22:54:22 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/locales/enUS.lua
+   M /trunk/modules/Auctioneer.lua
+
+Added Auctioneer update to toggle on search finish.
+------------------------------------------------------------------------
+r85 | cyprias | 2010-07-22 09:51:05 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Alt-Tab_Toggle.toc
+   M /trunk/locales/enUS.lua
+
+Added auctioneer as optional-dependencies in pkgmeta.
+------------------------------------------------------------------------
+r84 | cyprias | 2010-07-22 09:48:46 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   A /trunk/modules/Auctioneer.lua
+   M /trunk/modules/BankStack.lua
+   M /trunk/modules/load.xml
+
+Added toggle when Auctioneer is finished scanning.
+------------------------------------------------------------------------
+r82 | cyprias | 2010-07-22 09:05:33 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/modules/BankStack.lua
+
+Added upvalues, some comments.
+------------------------------------------------------------------------
+r81 | cyprias | 2010-07-22 09:03:28 +0000 (Thu, 22 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/Alt-Tab_Toggle.toc
+   M /trunk/core.lua
+   M /trunk/embeds.xml
+   M /trunk/locales/enUS.lua
+   A /trunk/modules/BankStack.lua
+   M /trunk/modules/load.xml
+
+Added toggle on BankStack complete.
+------------------------------------------------------------------------
+r80 | cyprias | 2010-07-21 03:17:38 +0000 (Wed, 21 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+   M /trunk/locales/enUS.lua
+   M /trunk/options.lua
+
+Re-added AFK Activate. 
+------------------------------------------------------------------------
+r78 | cyprias | 2010-07-14 19:52:30 +0000 (Wed, 14 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Removed debug message.
+------------------------------------------------------------------------
+r77 | cyprias | 2010-07-13 04:12:38 +0000 (Tue, 13 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Changed slash command. /att
+------------------------------------------------------------------------
+r76 | cyprias | 2010-07-13 04:05:48 +0000 (Tue, 13 Jul 2010) | 1 line
+Changed paths:
+   A /trunk/.pkgmeta
+   A /trunk/Alt-Tab_Toggle.toc
+   A /trunk/core.lua
+   A /trunk/embeds.xml
+   A /trunk/locales
+   A /trunk/locales/deDE.lua
+   A /trunk/locales/enUS.lua
+   A /trunk/locales/esES.lua
+   A /trunk/locales/frFR.lua
+   A /trunk/locales/koKR.lua
+   A /trunk/locales/load.xml
+   A /trunk/locales/ruRU.lua
+   A /trunk/locales/zhCN.lua
+   A /trunk/locales/zhTW.lua
+   A /trunk/modules
+   A /trunk/modules/BGConfirm.lua
+   A /trunk/modules/BGGates.lua
+   A /trunk/modules/BGIdle.lua
+   A /trunk/modules/BootProposal.lua
+   A /trunk/modules/Combat.lua
+   A /trunk/modules/Deserter.lua
+   A /trunk/modules/DungeonQueue.lua
+   A /trunk/modules/EnemyDetect.lua
+   A /trunk/modules/FlightLand.lua
+   A /trunk/modules/FullParty.lua
+   A /trunk/modules/FullRaid.lua
+   A /trunk/modules/PartyInvite.lua
+   A /trunk/modules/ReadyCheck.lua
+   A /trunk/modules/RoleCheck.lua
+   A /trunk/modules/Summon.lua
+   A /trunk/modules/Whisper.lua
+   A /trunk/modules/WintergraspEntry.lua
+   A /trunk/modules/ZeppelinArrival.lua
+   A /trunk/modules/load.xml
+   A /trunk/options.lua
+   A /trunk/sounds
+   A /trunk/sounds/ATTalert.mp3
+
+All new code.
+------------------------------------------------------------------------
+r75 | cyprias | 2010-07-13 04:02:56 +0000 (Tue, 13 Jul 2010) | 1 line
+Changed paths:
+   D /trunk/.pkgmeta
+   D /trunk/Alt-Tab_Toggle.toc
+   D /trunk/Sounds
+   D /trunk/core.lua
+   D /trunk/embeds.xml
+   D /trunk/locales
+   D /trunk/locales.xml
+
+Redoing everything.
+------------------------------------------------------------------------
+r73 | cyprias | 2010-07-04 15:24:12 +0000 (Sun, 04 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed error on line 785
+------------------------------------------------------------------------
+r72 | cyprias | 2010-07-04 14:21:27 +0000 (Sun, 04 Jul 2010) | 1 line
+Changed paths:
+   M /trunk/core.lua
+
+Fixed error on line 785
+------------------------------------------------------------------------

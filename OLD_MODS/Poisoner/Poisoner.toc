@@ -1,0 +1,10 @@
+## Interface: 30000
+## Title: Poisoner3
+## Notes: Poison application helper for rogues
+## Author: Original Poisoner by Karrion@Terenas, Poisoner3 (Wotlk Compatibility update by Silentdave
+## eMail: karrion@kieron.nu
+## URL: http://www.wowinterface.com/downloads/info5580-Poisoner.html
+## Version: 3.0
+## Dependencies:
+## SavedVariablesPerCharacter: POISONER_CONFIG
+Poisoner.xml

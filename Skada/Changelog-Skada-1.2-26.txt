@@ -1,0 +1,49 @@
+------------------------------------------------------------------------
+r291 | zarnivoop | 2010-02-22 22:28:49 +0000 (Mon, 22 Feb 2010) | 1 line
+Changed paths:
+   A /tags/1.2-26 (from /trunk:290)
+
+Tagging as 1.2-26
+------------------------------------------------------------------------
+r290 | zarnivoop | 2010-02-22 22:02:08 +0000 (Mon, 22 Feb 2010) | 2 lines
+Changed paths:
+   M /trunk/Options.lua
+   M /trunk/Skada.lua
+   M /trunk/changelog.txt
+   M /trunk/locale/enUS.lua
+
+Fix that new rank option.
+
+------------------------------------------------------------------------
+r289 | zarnivoop | 2010-02-20 10:33:03 +0000 (Sat, 20 Feb 2010) | 7 lines
+Changed paths:
+   M /trunk/.pkgmeta
+   M /trunk/BarDisplay.lua
+   M /trunk/Options.lua
+   M /trunk/Skada.lua
+   M /trunk/changelog.txt
+   M /trunk/locale/enUS.lua
+   M /trunk/modules/SkadaDamage/Damage.lua
+   M /trunk/modules/SkadaThreat/Threat.lua
+
+Reverted to normal changelog.
+Threat mode now respects the class color option.
+Added a global option to show rank numbers.
+Threat mode now shows target of target if target is friendly, and optionally focus target (or focus target's target).
+Started fixing guardians (not finished).
+
+
+------------------------------------------------------------------------
+r288 | onyxmaster | 2010-02-17 17:26:11 +0000 (Wed, 17 Feb 2010) | 1 line
+Changed paths:
+   M /trunk/modules/SkadaAbsorbs/Absorbs.lua
+
+refreshed spell list from RecountGuessedAbsorbs (mostly for Val'anyr bubbles)
+------------------------------------------------------------------------
+r287 | Zarnivoop | 2009-12-29 16:05:55 +0000 (Tue, 29 Dec 2009) | 2 lines
+Changed paths:
+   M /trunk/modules/SkadaDispels/Dispels.lua
+
+Count SPELL_STOLEN as a dispel.
+
+------------------------------------------------------------------------

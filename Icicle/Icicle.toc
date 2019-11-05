@@ -1,0 +1,11 @@
+## Interface: 30300
+## Title: Icicle
+## Version: 0.9
+## SavedVariables: Icicledb
+## Author: Thoth, Trolollolol - Sargeras - Molten-wow.com
+
+Icicle.xml
+settings.lua
+Icicle.lua
+IcicleCds.lua
+sponsors.lua

@@ -1,0 +1,24 @@
+<Ui xsi:schemaLocation="http://www.blizzard.com/wow/ui/ ..\FrameXML\UI.xsd">
+	<Include file="BankStack.lua"/>
+	<Include file="Whisper.lua"/>
+	<Include file="BGIdle.lua"/>
+	<Include file="BGConfirm.lua"/>
+	<Include file="BootProposal.lua"/>
+	<Include file="Deserter.lua"/>
+	<Include file="EnemyDetect.lua"/>
+	<Include file="Combat.lua"/>
+	<Include file="DungeonQueue.lua"/>
+	<Include file="FlightLand.lua"/>
+	<Include file="FullParty.lua"/>
+	<Include file="FullRaid.lua"/>
+	<Include file="BGGates.lua"/>
+	<Include file="PartyInvite.lua"/>
+	<Include file="ReadyCheck.lua"/>
+	<Include file="RoleCheck.lua"/>
+	<Include file="Summon.lua"/>
+	<Include file="WintergraspEntry.lua"/>
+	<Include file="ZeppelinArrival.lua"/>
+	<Include file="Auctioneer.lua"/>
+	<Include file="TradeSkill.lua"/>
+	<Include file="Resurrection.lua"/>
+</Ui>

@@ -1,0 +1,61 @@
+------------------------------------------------------------------------
+r10 | moncai | 2010-04-26 16:17:21 +0000 (Mon, 26 Apr 2010) | 3 lines
+Changed paths:
+   M /trunk/Defaults.lua
+   M /trunk/FlightMap.lua
+   M /trunk/FlightMap.toc
+   M /trunk/FlightMapTimes.lua
+   M /trunk/changes.txt
+   M /trunk/embeds.xml
+   M /trunk/localization/enUS.lua
+
+New: Optionally larger timer frame, see options.
+Options window now shows on /fmap.
+Minor bug fixes.
+------------------------------------------------------------------------
+r9 | moncai | 2010-04-21 21:54:56 +0000 (Wed, 21 Apr 2010) | 4 lines
+Changed paths:
+   M /trunk
+   A /trunk/.pkgmeta
+   M /trunk/Default-Flights.lua
+   M /trunk/FlightMap.lua
+   M /trunk/FlightMap.toc
+   M /trunk/FlightMap.xml
+   M /trunk/FlightMapTimes.lua
+   M /trunk/FlightMapUtil.lua
+   M /trunk/changes.txt
+   A /trunk/embeds.xml
+   D /trunk/lib/LibBabble-Zone-3.0.lua
+   D /trunk/lib/LibStub
+   A /trunk/locale.xml
+   D /trunk/localisation.cn.lua
+   D /trunk/localisation.de.lua
+   D /trunk/localisation.en.lua
+   D /trunk/localisation.es.lua
+   D /trunk/localisation.fr.lua
+   D /trunk/localisation.ko.lua
+   D /trunk/localisation.ru.lua
+   D /trunk/localisation.tw.lua
+   A /trunk/localization
+   A /trunk/localization/deDE.lua
+   A /trunk/localization/enUS.lua
+   A /trunk/localization/esES.lua
+   A /trunk/localization/esMX.lua
+   A /trunk/localization/frFR.lua
+   A /trunk/localization/koKR.lua
+   A /trunk/localization/ruRU.lua
+   A /trunk/localization/zhCN.lua
+   A /trunk/localization/zhTW.lua
+
+Added new flight paths to default list
+Possible fix for long flight names
+Restructuring for maintainability
+now using .pkgmeta for libstub and libbabble
+------------------------------------------------------------------------
+r8 | moncai | 2010-01-05 18:35:27 +0000 (Tue, 05 Jan 2010) | 1 line
+Changed paths:
+   M /trunk/FlightMap.toc
+   M /trunk/changes.txt
+
+Propagate Dhask's toc update
+------------------------------------------------------------------------

@@ -1,0 +1,5 @@
+## Interface: 70100
+## Title: ClassIconNotPortrait
+## Author: Machinelf
+## Notes: Replaces Portrait with Class Icon in default unit frames
+ClassIconNotPortrait.lua
